@@ -14,6 +14,7 @@ body {
 }
 
 header {
+  min-height: 10vh;
   background: #fff;
   padding: 1rem 2rem;
   display: flex;
@@ -22,6 +23,7 @@ header {
   border-bottom: 2px solid #eee;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 .logo img {
@@ -49,7 +51,7 @@ header {
   cursor: pointer;
 }
 
-.hero {
+hero {
   background-image: url('../imgs/fondoInicio.png');
   background-size: cover;
   background-position: center;
@@ -61,24 +63,24 @@ header {
 }
 
 .overlay {
-  background-color: fixed ;
   padding: 3rem;
   border-radius: 10px;
   color: white;
   margin-right: auto;
+  margin-left: 70px;
+  margin-top: -6.5rem;
+
 }
 
 .overlay h1 {
-  font-size: 3rem;
-  margin-top: -6.5rem;
+  font-size: 3.5rem;
   margin-bottom: 2.5rem;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  word-spacing: 4px;
 }
 
 .cta {
   background-color: #007bff;
-  font-weight:600 ;
+  font-weight:500 ;
   border: none;
   color: white;
   padding: 1rem 2rem;
@@ -129,4 +131,57 @@ footer {
   color: #ccc;
   margin-top: auto;
 
+}
+.carousel {
+  outline: 1px solid;
+  position: relative;
+  width: 1000px;
+  margin: 4rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+.swiper-slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #979797;
+  
+}
+
+.swiper-pagination-bullet {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-btn {
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.left {
+  left: -90px;
+}
+
+.right {
+  right: -90px;
 }

@@ -4,10 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TodoFP</title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../styles/inicio.css" />
+
 </head>
 <body>
-
   <!-- Encabezado -->
   <header>
     <div class="logo">
@@ -22,16 +24,35 @@
     </nav>
   </header>
 
-  <!-- Hero principal -->
-  <section class="hero">
+  <hero>
     <div class="overlay">
       <h1>¿QUE ESPERAS PARA EMPEZAR?</h1> <br>
       <button class="cta" onclick="location.href='cursos.html'">Ver Formaciones</button>
     </div>
-  </section>
+  </hero>
 
-  <!-- Beneficios -->
-  <section class="beneficios">
+<section class="carousel">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="../imgs/familia10.png" alt="Imagen carrusel"></div>
+      <div class="swiper-slide"><img src="../imgs/familia9.png" alt="Imagen carrusel"></div>
+      <div class="swiper-slide"><img src="../imgs/familia8.png" alt="Imagen carrusel"></div>
+      <div class="swiper-slide"><img src="../imgs/familia7.png" alt="Imagen carrusel"></div>
+      <div class="swiper-slide"><img src="../imgs/familia6.png" alt="Imagen carrusel"></div>
+      <div class="swiper-slide"><img src="../imgs/familia5.png" alt="Imagen carrusel"></div>
+      <div class="swiper-slide"><img src="../imgs/familia4.png" alt="Imagen carrusel"></div>
+      <div class="swiper-slide"><img src="../imgs/familia3.png" alt="Imagen carrusel"></div>
+      <div class="swiper-slide"><img src="../imgs/familia2.png" alt="Imagen carrusel"></div>
+      
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+
+<section class="beneficios">
     <div class="beneficio">
       <img src="../imgs/uno.png" alt="Acceso laboral">
       <h3>Salidas Profesionales</h3>
@@ -59,5 +80,10 @@
     <p>© 2025 TodoFP. © Ministerio de Educación, Formación Profesional y Deportes - Gobierno de España</p>
   </footer>
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="../script/carousel.js"></script>
+
 </body>
+
 </html>
