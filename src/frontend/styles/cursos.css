@@ -7,8 +7,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   color: #000;
-  background-color: #f9f9f9;
-    text-align: center;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -16,12 +15,11 @@ body {
 
 header {
   min-height: 10vh;
-  background: #fff;
+  background: #ffffff23;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid #eee;
   position: sticky;
   top: 0;
 }
@@ -136,6 +134,7 @@ aside{
   background: #E3E3E3;
 }
 aside h2{
+  text-align: center;
   font-size: 2.3rem;
   width: 100%;
   margin: 2rem 0rem;
@@ -176,13 +175,7 @@ aside h2{
   display: block;
 }
 
-footer {
-  background-color: #333;
-  text-align: center;
-  padding: 1.5rem;
-  color: #ccc;
-  margin-top: auto;
-}
+
 /* Media query para móviles  */
 @media (max-width: 768px) {
   main {
