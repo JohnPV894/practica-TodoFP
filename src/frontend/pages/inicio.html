@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Swiper  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  
   <link rel="stylesheet" href="../styles/inicio.css" />
   <link rel="stylesheet" href="../styles/seccionesPrincipales.css">
   <title>TodoFP</title>
@@ -22,34 +21,20 @@
       <a href="ayuda.html">CONTACTO</a>
       <a href="login.html"> <button class="login-btn">Iniciar Sesión</button></a>
     </nav>
+    <div class="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </header>
 
   <hero>
     <div class="llamado_a_la_accion">
       <h1>¿QUE ESPERAS PARA EMPEZAR?</h1> <br>
-      <button class="cta" onclick="location.href='cursos.html'">Ver Formaciones</button>
+      <button class="ir_cursos" onclick="location.href='cursos.html'">Ver Formaciones</button>
     </div>
   </hero>
 
-<section class="carousel">
-  <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="../imgs/familia10.png" alt="Imagen carrusel"></div>
-      <div class="swiper-slide"><img src="../imgs/familia9.png" alt="Imagen carrusel"></div>
-      <div class="swiper-slide"><img src="../imgs/familia8.png" alt="Imagen carrusel"></div>
-      <div class="swiper-slide"><img src="../imgs/familia7.png" alt="Imagen carrusel"></div>
-      <div class="swiper-slide"><img src="../imgs/familia6.png" alt="Imagen carrusel"></div>
-      <div class="swiper-slide"><img src="../imgs/familia5.png" alt="Imagen carrusel"></div>
-      <div class="swiper-slide"><img src="../imgs/familia4.png" alt="Imagen carrusel"></div>
-      <div class="swiper-slide"><img src="../imgs/familia3.png" alt="Imagen carrusel"></div>
-      <div class="swiper-slide"><img src="../imgs/familia2.png" alt="Imagen carrusel"></div>
-      
-    </div>
-    <div class="swiper-pagination"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
-  </div>
-</section>
 
 
 <section class="beneficios">
@@ -84,10 +69,7 @@
     <p>© 2025 TodoFP. © Ministerio de Educación, Formación Profesional y Deportes - Gobierno de España</p>
   </footer>
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="../script/carousel.js"></script>
-
+  <script src="../script/hamburger.js"></script>
 </body>
 
 </html>

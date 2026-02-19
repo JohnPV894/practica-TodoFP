@@ -67,13 +67,13 @@ header {
 /* Ajuste del contenedor principal */
 main {
   display: flex;
-  min-height: 90vh; /* Ajuste dinámico según altura de header y footer */
+  min-height: 90vh; 
   background-color: #38a5ff; /* Color azul de la imagen */
 }
 
 /* Sección Izquierda */
 .contenido-izquierda {
-  flex: 1; /* Ocupa el 50% */
+  flex: 1; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,7 +163,6 @@ aside h2{
 }
 
 .cuadricula div {
-  /* 4. Ya no necesitas width: fit-content aquí, la columna se encarga */
   display: flex;
   justify-content: center;
   align-items: center;

@@ -13,25 +13,15 @@ body {
   min-height: 100vh;
 }
 
-header {
-  filter: blur(20);
-  min-height: 10vh;
-  background: #ffffff23;
-  padding: 1rem 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-}
+
+
 
 .logo img {
   height: 55px;
 }
 
 .nav a {
-      gap: 4px;
+  gap: 4px;
   margin: 0 1rem;
   text-decoration: none;
   font-weight: 800;
@@ -79,7 +69,7 @@ hero {
   word-spacing: 4px;
 }
 
-.cta {
+.ir_cursos {
   background-color: #007bff;
   font-weight:500 ;
   border: none;
@@ -90,11 +80,11 @@ hero {
   cursor: pointer;
   transition: 300ms;
 }
-.cta:hover{
+.ir_cursos:hover{
       background: white;
       color: #007bff;
 }
-.cta:active{
+.ir_cursos:active{
       transform: translateX(5px);
 
 }

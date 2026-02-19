@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const swiper = new Swiper('.mySwiper', {
     loop: true,
-    slidesPerView: 5,
-    spaceBetween: 20,
     autoplay: {
       delay: 4000,
       disableOnInteraction: false,
@@ -34,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       // when window width is >= 1024px
       1024: {
-        slidesPerView: 5,
+        slidesPerView: 3,
         spaceBetween: 20
       }
     }
